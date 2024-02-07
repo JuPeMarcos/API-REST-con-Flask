@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Estilos para el título principal */
+h1 {
+    text-align: center;
+    color: #2e4053;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las etiquetas de formulario */
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #2e4053;
+}
+
+/* Estilos para los campos de entrada */
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* Estilos específicos para el botón de envío */
+input[type="submit"] {
+    width: 100%;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos al pasar el mouse sobre el botón de envío */
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para el subtítulo */
+h2 {
+    text-align: center;
+    color: #2e4053;
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los párrafos dentro del formulario */
+form p {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
